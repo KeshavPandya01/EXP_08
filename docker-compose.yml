@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  kubernetes-web:
+    image: keshavpandya04/orchestration:latest
+    container_name: kubernetes-web-1
+    ports:
+      - "4001:4000"
+    restart: always
